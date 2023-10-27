@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.quotebox {
+    background: #fff;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.author {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1rem;
+}
+
+.button {
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(235, 54, 245, 1) 6%, rgba(69, 166, 252, 1) 84%);
+    border: 1px solid black;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    outline: none;
+    cursor: pointer;
+}
